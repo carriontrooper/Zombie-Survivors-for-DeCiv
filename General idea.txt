@@ -24,6 +24,7 @@ civs:
 The Resistant: naturally immune people banding together and making a state. Their blood makes immunity drug.
 UU: Untouched: one of the immune, cannot get infected
 UB: Blood Serum: earlier Serum Lab
+UI: Medical Tent: defense + units standing there gets antivirus status
 
 Infected Cult: infected people who worship zombies. Bonuses to infected units, and they won't die from infection.
 UU: Viral Zealot: gets more buffs near infected units
