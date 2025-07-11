@@ -9,13 +9,24 @@ common/public(not unique) stuff:
 - zombie antivirus strategic resource
 - Serum Lab building, makes zombie antivirus resource, free antivirus promotion that makes infantry immune
 
+zombies:
+Zombie Crawler
+Zombie Walker
+Zombie Runner
+
+special:
+Zombie Spitter
+Zombie Spewer
+Zombie Exploder
+Zombie Brute
+
 civs:
 The Resistant: naturally immune people banding together and making a state. Their blood makes immunity drug.
 UU: Untouched: one of the immune, cannot get infected
 UB: Blood Serum: earlier Serum Lab
 
 Infected Cult: infected people who worship zombies. Bonuses to infected units, and they won't die from infection.
-UU: Zed Zealot: gets more buffs near infected units
+UU: Viral Zealot: gets more buffs near infected units
 UGP: Great Afflicted One: Great Philosopher replacement that spreads infection among own troops and spreads ideo
 
 Hazmat Dukes: isolationist militarists that specialize in fighting zombies, more strength vs infecteds, can only get infected from melee.
