@@ -1,0 +1,29 @@
+zombie mechanics:
+basically infectious barbarians that only gets spawned via events
+zombies start out weak but gets stronger and numerous by midgame, but naturally decays (unless special zombies)
+special zombies are either added via events or via chance, by infecting certain units
+infection status that can't be cured until mid-to-lategame that slowly saps life (5hp per turn?)
+units that die with infection status fires an event that adds a zombie on barbarians
+
+common/public(not unique) stuff:
+- zombie antivirus strategic resource
+- Serum Lab building, makes zombie antivirus resource, free antivirus promotion that makes infantry immune
+
+civs:
+The Resistant: naturally immune people banding together and making a state. Their blood makes immunity drug.
+UU: Untouched: one of the immune, cannot get infected
+UB: Blood Serum: earlier Serum Lab
+
+Infected Cult: infected people who worship zombies. Bonuses to infected units, and they won't die from infection.
+UU: Zed Zealot: gets more buffs near infected units
+UGP: Great Afflicted One: Great Philosopher replacement that spreads infection among own troops and spreads ideo
+
+Hazmat Dukes: isolationist militarists that specialize in fighting zombies, more strength vs infecteds, can only get infected from melee.
+UU: Purifier: flamethrower guy whose attacks inflict burning
+UU: Mercy Killer: sniper with 3 range that is effective vs zombies, can evade zombies
+UU: Disinfector: removes infection from units it attacks and gives disinfected promotion that removes infected status
+
+Zed Labs: mad scientists out to harness the zombies to conquer the world. can convert zombies.
+UU: Zombie Worker: cheap but slow worker
+UU: Docile Zombie: basically, civ controlled zombies you can produce
+UU: Z-Piper: rifle unit that boosts the power of nearby owned zombie units
