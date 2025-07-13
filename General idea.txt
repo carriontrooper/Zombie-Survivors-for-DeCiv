@@ -9,7 +9,7 @@ common/public(not unique) stuff:
 - zombie antivirus strategic resource
 - Serum Lab building, makes zombie antivirus resource, free antivirus promotion that makes infantry immune
 
-zombies:
+common zombies:
 Zombie Crawler
 Zombie Walker
 Zombie Runner
@@ -22,20 +22,29 @@ Zombie Brute
 
 civs:
 The Resistant: naturally immune people banding together and making a state. Their blood makes immunity drug.
+UW: First Safehouse: spawns 2 Untouched, 1 free antivirus, adds production
 UU: Untouched: one of the immune, cannot get infected
 UB: Blood Serum: earlier Serum Lab
+UB: Zombie Choke Point: Choke Point that makes the city get a buff vs zombies
 UI: Medical Tent: defense + units standing there gets antivirus status
 
 Infected Cult: infected people who worship zombies. Bonuses to infected units, and they won't die from infection.
-UU: Viral Zealot: gets more buffs near infected units
+UW: Grove of the Infected: spawns 1 Viral Zealot and 1 Zombie Walker, adds food
+UU: Viral Zealot: gets more buffs near infected units, becomes common zombie on death
 UGP: Great Afflicted One: Great Philosopher replacement that spreads infection among own troops and spreads ideo
+UB: Fever House: anti-Serum Lab that doesn't provide antivirus but makes your personnel units spawn with infected promo
+UI: Plague Altar: defensive structure that allows Great Afflicted Ones to summon zombies only when they're at the altar
 
 Hazmat Dukes: isolationist militarists that specialize in fighting zombies, more strength vs infecteds, can only get infected from melee.
-UU: Purifier: flamethrower guy whose attacks inflict burning
+UW: Hazmat Bastion: spawns 1 Purifier, adds city defense
+UU: Purifier: flamethrower guy whose attacks inflict burning status
 UU: Mercy Killer: sniper with 3 range that is effective vs zombies, can evade zombies
-UU: Disinfector: removes infection from units it attacks and gives disinfected promotion that removes infected status
+UU: Disinfector Truck: removes infection from units it attacks and gives disinfected promotion that removes infected status
+UB: Serum Station: +happiness when having various amounts of antivirus
 
-Zed Labs: mad scientists out to harness the zombies to conquer the world. can convert zombies.
+Zed Corp: mad scientist corporation out to harness the zombies to conquer the world. can convert zombies.
+UW: Zed Corp Bunker: spawns 1 Zombie Worker and 1 Docile Zombie, adds science
 UU: Zombie Worker: cheap but slow worker
 UU: Docile Zombie: basically, civ controlled zombies you can produce
 UU: Z-Piper: rifle unit that boosts the power of nearby owned zombie units
+UB: Pathogen Lab: science building that enables advanced promotions for zombie units
