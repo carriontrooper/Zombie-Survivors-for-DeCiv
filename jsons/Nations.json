@@ -32,7 +32,7 @@
 		"favoredReligion": "ReligionName",
 		"uniqueName": "UniqueName",
 		"uniques": [
-			"Uniques Go Here"
+			"Comment [Uniques Go Here]"
 		],
 		"cities": [
 			"Capital",
@@ -70,4 +70,265 @@
 		]
 	},
 	*/
+
+	{
+		"name": "The Resistant",
+		"leaderName": "Louie Walker",
+		"adjective": ["Resistant"],
+		"startBias": ["Wasteland"],
+		"personality": "Louie",
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [168, 0, 0],
+		"innerColor": [204, 255, 18],
+		"favoredReligion": "Humanism",
+		"uniqueName": "Natural Immunity",
+		"uniques": [
+			"Comment [Uniques Go Here]"
+		],
+		"cities": [
+			"Sanctuary House",
+			"Mercy Hospice",
+			"Fairfield",
+			"Riverside Church",
+			"Metro Terminal",
+			"Millhaven",
+			"Bill's Rest",
+			"Lighthouse Shanty",
+			"Liberty Mall",
+			"Rayford Pass",
+			"Whispering Oaks",
+			"Village En Marais",
+			"Ducatel",
+			"Milltown",
+			"Waterfront Parish",
+			"Memorial Bridge",
+			"Cut-throat Creek",
+			"Turnpike",
+			"Carnival Fair",
+			"Last Stand"
+		],
+		"spyNames": [
+			"Bill",
+			"Francis",
+			"Louis",
+			"Zoey",
+			"Coach",
+			"Ellis",
+			"Nick",
+			"Rochelle",
+			"Keith",
+			"Gnome Chompsky"
+		]
+	},
+	{
+		"name": "Infected Cult",
+		"leaderName": "Father Mac Victor",
+		"adjective": ["Infected Cultist"],
+		"startBias": ["Badlands"],
+		"personality": "Father Mac",
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [104, 133, 0],
+		"innerColor": [130, 222, 118],
+		"favoredReligion": "Viral Salvation",
+		"uniqueName": "Viral Blessing",
+		"uniques": [
+			"Comment [Uniques Go Here]"
+		],
+		"cities": [
+			"Quarantine Haven",
+			"Miasma Village",
+			"Phlegmtown",
+			"Mucus Creek",
+			"Fluville",
+			"Bileburg",
+			"Pus Hill",
+			"Ichortown",
+			"Feverside",
+			"Infectown",
+			"Slime Slums",
+			"Rabies Parish",
+			"Snifflesburg",
+			"Pallid Church",
+			"Mortis Haven",
+			"Puketown",
+			"Sanguine River",
+			"Mumpsville",
+			"Plagueburg",
+			"Typhus Farm"
+		],
+		"spyNames": [
+			"Typhus",
+			"Rabies",
+			"Influenza",
+			"Corona",
+			"Dengue",
+			"Diptheria",
+			"Hepatitis",
+			"Ebola",
+			"Polio",
+			"Measles"
+		]
+	},
+	{
+		"name": "Hazmat Dukes",
+		"leaderName": "Matt DuPont",
+		"adjective": ["Hazmatter"],
+		"startBias": ["Wasteland"],
+		"personality": "Matt",
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [227, 185, 0],
+		"innerColor": [74, 47, 0],
+		"favoredReligion": "Liberty",
+		"uniqueName": "Kill All Sons of Zombies",
+		"uniques": [
+			"Comment [Uniques Go Here]"
+		],
+		"cities": [
+			"Fort Hazmatt",
+			"Kevin's Ridge",
+			"Elliot's Town",
+			"Kimberly's Hold",
+			"Bruce's Drift",
+			"Betty's Diner",
+			"Steven's Hold",
+			"Mark's Folly",
+			"Caleb's Rest",
+			"Irma's Bunker",
+			"Hank's Woods",
+			"Greg's Mall",
+			"Jensen's Folly",
+			"Mike's Town",
+			"Zoe's Canyon",
+			"Reggie's Lot",
+			"Brenda's Motel",
+			"Jebediah's Farm",
+			"Pete's Barn",
+			"Angus' Ranch"
+		],
+		"spyNames": [
+			"Sneaky Fella A",
+			"Sneaky Fella B",
+			"Sneaky Fella C",
+			"Sneaky Fella D",
+			"Sneaky Fella E",
+			"Sneaky Fella F",
+			"Sneaky Fella G",
+			"Sneaky Fella H",
+			"Sneaky Fella I",
+			"Sneaky Fella J"
+		]
+	},
+	{
+		"name": "Zed Corp",
+		"leaderName": "Vivian Mortis",
+		"adjective": ["Z-Co"],
+		"startBias": ["Tundra"],
+		"personality": "Vivian",
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"declaringFriendship": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [140, 143, 110],
+		"innerColor": [41, 54, 7],
+		"favoredReligion": "Capitalism",
+		"uniqueName": "Rulers of Zombieland",
+		"uniques": [
+			"Comment [Uniques Go Here]"
+		],
+		"cities": [
+			"Zed Headquarters",
+			"Accounting Department",
+			"RnD Department",
+			"Marketing Department",
+			"IT Department",
+			"HR Department",
+			"First Branch",
+			"Second Branch",
+			"Third Branch",
+			"Fourth Branch",
+			"Fifth Branch",
+			"Sixth Branch",
+			"Seventh Branch",
+			"Eighth Branch",
+			"Ninth Branch",
+			"Tenth Branch",
+			"Eleventh Branch",
+			"Twelvth Branch",
+			"Thirteenth Branch",
+			"Fourteenth Branch"
+		],
+		"spyNames": [
+			"Intern Joe",
+			"Intern Eva",
+			"Intern Bob",
+			"Intern Ida",
+			"Intern Dil",
+			"Intern Jim",
+			"Intern Reg",
+			"Intern Aki",
+			"Intern Ena",
+			"Intern Ada"
+		]
+	},
 ]
