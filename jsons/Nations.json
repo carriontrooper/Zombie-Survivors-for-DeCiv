@@ -82,24 +82,26 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "What you're doing are no better than the zombies, and further threatens us! It's time we strike back!",
+		"attacked": "We've endured countless zombie waves - this should be no worse.",
+		"defeated": "We've survived for so long... We had a good run.",
+		"introduction": "Wait, you're not zombiefied?! Hot dang. Name's Louie Walker, I represent The Resistant. Let's hope there's more uninfected people out there.",
 
-		"neutralHello": ".",
-		"hateHello": ".",
+		"neutralHello": "Hey, how's it going?",
+		"hateHello": "Oh, it's you. Gotten bit by a zombie yet?",
 
-		"denounced": ".",
-		"declaringFriendship": ".",
-		"tradeRequest": ".",
+		"denounced": "Yeah, yeah, whatever. Don't come crying when you got hit by a zombie wave.",
+		"declaringFriendship": "You and me, it's us against the world!",
+		"tradeRequest": "Hey, we need some supplies, what do you want to trade for these?",
 
 		"outerColor": [168, 0, 0],
 		"innerColor": [204, 255, 18],
 		"favoredReligion": "Humanism",
 		"uniqueName": "Natural Immunity",
 		"uniques": [
-			"Comment [Uniques Go Here]"
+			"[+10]% Strength <for [All] units> <vs [Zombie] units> <while the empire is happy>",
+			"City-State Influence recovers at twice the normal rate",
+			"Cannot build [Enslaved] units"
 		],
 		"cities": [
 			"Sanctuary House",
