@@ -85,7 +85,7 @@
 		"declaringWar": "What you're doing are no better than the zombies, and further threatens us! It's time we strike back!",
 		"attacked": "We've endured countless zombie waves - this should be no worse.",
 		"defeated": "We've survived for so long... We had a good run.",
-		"introduction": "Wait, you're not zombiefied?! Hot dang. Name's Louie Walker, I represent The Resistant. Let's hope there's more uninfected people out there.",
+		"introduction": "Wait, you're not zombiefied?! Hot dang. Name's Louie Walker, I represent a group of folks called The Resistant. Let's hope there's more uninfected people out there.",
 
 		"neutralHello": "Hey, how's it going?",
 		"hateHello": "Oh, it's you. Gotten bit by a zombie yet?",
@@ -149,24 +149,25 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "The time is ripe for your salvation! So let us spread the blessings of the Infected...",
+		"attacked": "Now now, there's enough blessings of the Infected for everyone.",
+		"defeated": "Finally... our mortality is our salvation...",
+		"introduction": "Oh, blessed day! There are those still bereft of salvation. Oh, where are my manners? My name is Father Mac Victor. Say, are you interested in joining our Infected Cult?",
 
-		"neutralHello": ".",
-		"hateHello": ".",
+		"neutralHello": "Blessed day, heathen.",
+		"hateHello": "I hope this will be enlightening to both of us.",
 
-		"denounced": ".",
-		"declaringFriendship": ".",
-		"tradeRequest": ".",
+		"denounced": "Ahh, no matter - no quarantine shall stop the spread of blessings.",
+		"declaringFriendship": "You seem to be favoured by the fevers - would you like to be good neighbors?",
+		"tradeRequest": "We realize that not all are blessed in the way we do - let us share some of the other kinds of blessings.",
 
 		"outerColor": [104, 133, 0],
 		"innerColor": [130, 222, 118],
 		"favoredReligion": "Viral Salvation",
 		"uniqueName": "Viral Blessing",
 		"uniques": [
-			"Comment [Uniques Go Here]"
+			"Comment [Units will not die from being Infected]", //gotta look up how statuses work
+			"[+10]% Strength <for units with [Infected]>"
 		],
 		"cities": [
 			"Quarantine Haven",
@@ -214,24 +215,26 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Your people look mighty ill. For your own safety, let us purify your lands from the infected taint!",
+		"attacked": "Let it be known that the Hazmat Dukes shall respond to any provocation in kind - be they zombies or otherwise!",
+		"defeated": "It's over - our seals broken, our solidarity torn, like our suits. I implore you to finish me before I turn into a zombie...",
+		"introduction": "Ho there! It's dangerous around these parts, in account for the zombies. By my word, Matt DuPont, let us Hazmat Dukes help you... unless you're one of those infected.",
 
-		"neutralHello": ".",
-		"hateHello": ".",
+		"neutralHello": "Greetings, denizen.",
+		"hateHello": "Greetings, scoundrel.",
 
-		"denounced": ".",
-		"declaringFriendship": ".",
-		"tradeRequest": ".",
+		"denounced": "Words are weaker than the infected, and we've stood strong against them.",
+		"declaringFriendship": "You look like a fellow of solid countenance. Shall become steadfast friends?",
+		"tradeRequest": "We require supplies to purify the zombie menace. We are more than willing to trade goods for them.",
 
 		"outerColor": [227, 185, 0],
 		"innerColor": [74, 47, 0],
 		"favoredReligion": "Liberty",
 		"uniqueName": "Kill All Sons of Zombies",
 		"uniques": [
-			"Comment [Uniques Go Here]"
+			"Comment [Units will only get Infected from melee attacks]",
+			"[+20%] Strength <vs [Infected] units>",
+			"Cannot build [Enslaved] units"
 		],
 		"cities": [
 			"Fort Hazmatt",
@@ -279,32 +282,33 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Oho, pardon me - I need to run some experiments on your populace. Wartime experiments.",
+		"attacked": "Spicy, aren't you? But that's just what I'm craving for.",
+		"defeated": "Well, you should've known by now that we were behind the zombie infection. But it seems it's not us who will control the world...",
+		"introduction": "Oh my, there are other survivors! I am Vivian Mortis, CEO of Zed Corp. Disregard the rumors you've heard of us - we are pleased to do business with you.",
 
-		"neutralHello": ".",
-		"hateHello": ".",
+		"neutralHello": "Always happy to see a satisfied customer.",
+		"hateHello": "My, don't you look positively delectable today.",
 
-		"denounced": ".",
-		"declaringFriendship": ".",
-		"tradeRequest": ".",
+		"denounced": "Did you expect me to be shocked? Honestly, I'd say it's about time.",
+		"declaringFriendship": "I'd thought you'd be a bore, but you've subverted my expectations! Would you like to enter a lasting partnership?",
+		"tradeRequest": "Would you like to hear about this very good deal our marketing department's proposing?",
 
 		"outerColor": [140, 143, 110],
 		"innerColor": [41, 54, 7],
 		"favoredReligion": "Capitalism",
 		"uniqueName": "Rulers of Zombieland",
 		"uniques": [
-			"Comment [Uniques Go Here]"
+			"May capture killed [Infected] units <with [60]% chance>",
+			"[+20]% [Science] from City-States"
 		],
 		"cities": [
-			"Zed Headquarters",
-			"Accounting Department",
-			"RnD Department",
-			"Marketing Department",
-			"IT Department",
-			"HR Department",
+			"Zed Corp HQ",
+			"Accounting Dept",
+			"RnD Dept",
+			"Marketing Dept",
+			"IT Dept",
+			"HR Dept",
 			"First Branch",
 			"Second Branch",
 			"Third Branch",
