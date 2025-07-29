@@ -167,7 +167,8 @@
 		"uniqueName": "Viral Blessing",
 		"uniques": [
 			"Comment [Units will not lose HP from being Infected]", //gotta look up how statuses work
-			"[+10]% Strength <for units with [Infected]>"
+			"[+10]% Strength <for units with [Infected]>",
+			"All newly-trained [All] units [in all cities] receive the [Infected] promotion"
 		],
 		"cities": [
 			"Quarantine Haven",
