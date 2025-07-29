@@ -9,4 +9,10 @@
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
 		]
 	},
+	{
+		"name": "Naturally Immune",
+		"uniques": [
+					"[This Unit] loses the [Infected] status <upon turn start>"
+		]
+	}
 ]
