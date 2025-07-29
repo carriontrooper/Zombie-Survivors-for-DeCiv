@@ -166,7 +166,7 @@
 		"favoredReligion": "Viral Salvation",
 		"uniqueName": "Viral Blessing",
 		"uniques": [
-			"Comment [Units will not die from being Infected]", //gotta look up how statuses work
+			"Comment [Units will not lose HP from being Infected]", //gotta look up how statuses work
 			"[+10]% Strength <for units with [Infected]>"
 		],
 		"cities": [
