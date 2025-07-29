@@ -1,3 +1,12 @@
 [
-	
+	{
+		"name": "Infected",
+		"uniques": [
+					"[-10]% Strength <for [non-[Zombie]] units>",
+					"Comment [Takes 10 damage at turn start, except for Zombies and Infected Cult]",
+					
+					"[This Unit] takes [10] damage <upon turn start> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
+					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
+		]
+	},
 ]
