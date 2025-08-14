@@ -1,3 +1,76 @@
 [
-	
+	/*
+	{
+		"name": "Template",
+		// Stats focused personalities
+		"production": Production,
+		"food": Growth,
+		"gold": Gold,
+		"science": Science,
+		"culture": Culture,
+		"happiness": Happiness,
+		"faith": Religion,
+		// Behaviour focused personalities
+		"military": Military Training,
+		"aggressive": Offensive or (10 - defensive) which ever is higher,
+		"declareWar": War,
+		"commerce": Gold + Chattiness,
+		"diplomacy": Diplomatic Balance + Friendly,
+		"loyal": Loyalty + Defense,
+		"expansion": Expansion,
+
+		"priorities": {
+			"Adaptation": Growth + Culture + Defensive,
+			"Expansionism": Expansion + CityStateCompetitiveness + CSFriendly,
+			"Sovereignty": Boldness + War,
+			"Theocracy": Religion + War,
+			"Rationalism": Science + Terraformer,
+			"Constitution": Growth + Culture + Happiness,
+			"Supremacy": Boldness + War,
+			"Monopoly": Gold + Chattiness + CityStateCompetitiveness + CSFriendly,
+			"Collectivism": Defensive + Production,
+			"Naturalism": Growth + Culture + Happiness,
+			"Mechanization": Boldness + Production + Military training,
+			"Bionics": Boldness + Science + Military training + Terraformer
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	*/
+
+	{
+		"name": "Louie",
+		// Stats focused personalities
+		"production": 6,
+		"food": 7,
+		"gold": 5,
+		"science": 6,
+		"culture": 7,
+		"happiness": 7,
+		"faith": 5,
+		// Behaviour focused personalities
+		"military": 6,
+		"aggressive": 6,
+		"declareWar": 5,
+		"commerce": 8,
+		"diplomacy": 8,
+		"loyal": 8,
+		"expansion": 6,
+
+		"priorities": {
+			"Adaptation": 30,
+			"Expansionism": 10,
+			"Sovereignty": 30,
+			"Theocracy": 10,
+			"Rationalism": 20,
+			"Constitution": 30,
+			"Supremacy": 10,
+			"Monopoly": 10,
+			"Collectivism": 10,
+			"Naturalism": 10,
+			"Mechanization": 10,
+			"Bionics": 10
+		},
+	},
 ]
