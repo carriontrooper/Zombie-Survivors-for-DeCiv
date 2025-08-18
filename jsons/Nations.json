@@ -167,6 +167,7 @@
 		"uniqueName": "Viral Blessing",
 		"uniques": [
 			"Comment [Units will not lose HP from being Infected]", //gotta look up how statuses work
+			"[This Unit] heals [10] HP <upon turn start> <for units with [Infected]> <hidden from users>",
 			"[+10]% Strength <for units with [Infected]>",
 			"All newly-trained [All] units [in all cities] receive the [Infected] promotion"
 		],
