@@ -7,12 +7,32 @@
 					
 					"[This Unit] takes [10] damage <upon turn start> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
+					"[Target Unit] gains the [Infected] status <vs [Hazmat Suited] units>"
 		]
 	},
 	{
 		"name": "Naturally Immune",
 		"uniques": [
-					"[This Unit] loses the [Infected] status <upon turn start>"
+					"[This Unit] loses the [Infected] status <upon turn start> <for units with [Infected]>",
+					"[+10]% Strength <vs [Infected] units>"
 		]
-	}
+	},
+	{
+		"name": "Antivirus Serum",
+		"uniques": [
+					"[This Unit] loses the [Infected] status <upon turn start> <when below [80] HP> <for units with [Infected]>"
+		]
+	},
+	{
+		"name": "[Great Afflicted One] Aura",
+		"uniques": [
+					"[This Unit] heals [10] HP <when adjacent to a [Infected] unit> <upon turn start> <for units with [Infected]>"
+		]
+	},
+	{
+		"name": "Hazmat Suited",
+		"uniques": [
+					"[This Unit] loses the [Infected] status <upon gaining the [Infected] status> <upon turn start>"
+		]
+	},
 ]
