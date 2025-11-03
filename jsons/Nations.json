@@ -79,8 +79,8 @@
 		"personality": "Louie",
 		"preferredVictoryType":"Diplomatic",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "'I hope this works - ah. Anyone out there listening to this broadcast? I'm Louie Walker, and I'm here with other survivors. We've managed to make a safe zone, and are holding out against the zombies. Turns out some of us are completely immune to the infection, we'll try our best guarding those who aren't.'",
+		"startIntroPart2": "'If anyone out there is still listening, head over to the Sanctuary House! We'll need all the help we can get! This is Louie Walker from The Resistant, stay safe out there!'",
 
 		"declaringWar": "What you're doing are no better than the zombies, and further threatens us! It's time we strike back!",
 		"attacked": "We've endured countless zombie waves - this should be no worse.",
@@ -146,8 +146,8 @@
 		"personality": "Father Mac",
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "'My acolytes, you might have once thought the plague that ails this land a curse. But now you know better - it is a blessing, granted to us chosen ones.'",
+		"startIntroPart2": "'Yes! It is the salvation promised to us, a promise of immortality for the devout! We the Infected Cult are the chosen ones, death shall not hound us in the end!'",
 
 		"declaringWar": "The time is ripe for your salvation! So let us spread the blessings of the Infected...",
 		"attacked": "Now now, there's enough blessings of the Infected for everyone.",
@@ -187,23 +187,23 @@
 			"Snifflesburg",
 			"Pallid Church",
 			"Mortis Haven",
-			"Puketown",
+			"Poxton",
 			"Sanguine River",
 			"Mumpsville",
 			"Plagueburg",
 			"Typhus Farm"
 		],
 		"spyNames": [
-			"Typhus",
-			"Rabies",
-			"Influenza",
-			"Corona",
-			"Dengue",
-			"Diptheria",
-			"Hepatitis",
-			"Ebola",
-			"Polio",
-			"Measles"
+			"Sister Typhus",
+			"Brother Rabies",
+			"Sister Influenza",
+			"Brother Corona",
+			"Sister Dengue",
+			"Brother Diptheria",
+			"Sister Hepatitis",
+			"Brother Ebola",
+			"Sister Polio",
+			"Brother Measles"
 		]
 	},
 	{
@@ -214,8 +214,8 @@
 		"personality": "Matt",
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "'Attention, loyal subjects! We, the Hazmat Dukes do declare that the former quarantine area F has been deemed fit for habitation once more. That being said, do report if you or your neighbor has the signs of being infected.'",
+		"startIntroPart2": "'Failure to comply will result in a cleansing protocol for the entire settlement, and neither of us wants that, do we? As always, trust that our suits will keep you safe, and don't forget to pay your periodic tithes.'",
 
 		"declaringWar": "Your people look mighty ill. For your own safety, let us purify your lands from the infected taint!",
 		"attacked": "Let it be known that the Hazmat Dukes shall respond to any provocation in kind - be they zombies or otherwise!",
@@ -225,7 +225,7 @@
 		"neutralHello": "Greetings, denizen.",
 		"hateHello": "Greetings, scoundrel.",
 
-		"denounced": "Words are weaker than the infected, and we've stood strong against them.",
+		"denounced": "Words are weaker than the infected, and we've stood strong against them both.",
 		"declaringFriendship": "You look like a fellow of solid countenance. Shall become steadfast friends?",
 		"tradeRequest": "We require supplies to purify the zombie menace. We are more than willing to trade goods for them.",
 
@@ -281,8 +281,8 @@
 		"personality": "Vivian",
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "'Notice to all Zed Corp employees: in light of the success of our newest project, we are enacting a massive cut-back protocol. We are thankful for your service to the company.'",
+		"startIntroPart2": "'If you are not enrolled in protocol Z, your severance package should be at your desks by now, complete with a complimentary vial of the latest product. If you are, then please follow instructions detailed in your manuals towards the nearest Zed Corp bunker complexes-'",
 
 		"declaringWar": "Oho, pardon me - I need to run some experiments on your populace. Wartime experiments.",
 		"attacked": "Spicy, aren't you? But that's just what I'm craving for.",
