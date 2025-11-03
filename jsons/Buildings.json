@@ -1,3 +1,103 @@
 [
+	// unique wonders
 	
+	// generic
+	{
+		"name": "Serum Lab",
+		"science": 2,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"Instantly provides [3] [Zombie Antivirus] <upon turn start> <when above [0] [Power]>",
+			"All newly-trained [relevant] units [in this city] receive the [Antivirus Serum] promotion",
+			"Consumes [1] [Power]"
+		]
+	},
+	
+	// uniques
+	// The Resistant
+	{
+		"name": "Blood Serum",
+		"uniqueTo": "The Resistant",
+		"replaces": "Serum Lab",
+		"science": 1,
+		"happiness": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Education",
+		"uniques": [
+			"Instantly provides [3] [Zombie Antivirus] <upon turn start> <when above [0] [Power]>",
+			"All newly-trained [relevant] units [in this city] receive the [Antivirus Serum] promotion",
+			"Consumes [1] [Power]"
+		]
+	},
+
+	{
+		"name": "Zombie Choke Points",
+		"uniqueTo": "The Resistant",
+		"replaces": "Choke Points",
+		"cityStrength": 2,
+		"cityHealth": 80,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+10]% City Strength from defensive buildings <vs [Zombie] units>",
+			"Only available <in cities with a [Walls]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mining"
+	},
+
+	// Infected Cult
+	{
+		"name": "Fever House",
+		"uniqueTo": "Infected Cult",
+		"replaces": "Serum Lab",
+		"faith": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Chemistry",
+		"uniques": [
+			//"Instantly provides [3] [Zombie Antivirus] <upon turn start>",
+			"All newly-trained [relevant] units [in this city] receive the [Infected] promotion"
+		]
+	},
+
+	// Hazmat Dukes
+	{
+		"name": "Serum Station",
+		"uniqueTo": "Hazmat Dukes",
+		"replaces": "Serum Lab",
+		"science": 2,
+		"happiness": 1,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"Instantly provides [3] [Zombie Antivirus] <upon turn start> <when above [0] [Power]>",
+			"All newly-trained [relevant] units [in this city] receive the [Antivirus Serum] promotion",
+			"[+1 Happiness] <when number of [Zombie Antivirus] is more than [5]>",
+			"[+1 Happiness] <when number of [Zombie Antivirus] is more than [10]>",
+			"[+1 Happiness] <when number of [Zombie Antivirus] is more than [20]>",
+			"[+1 Happiness] <when number of [Zombie Antivirus] is more than [50]>",
+			"Consumes [1] [Power]"
+		]
+	},
+
+	// Zed Corp
+	{
+		"name": "Pathogen Lab",
+		"uniqueTo": "Zed Corp",
+		"replaces": "Serum Lab",
+		"science": 3,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			//"Instantly provides [3] [Zombie Antivirus] <upon turn start>",
+			//"All newly-trained [relevant] units [in this city] receive the [Antivirus Serum] promotion",
+			"Comment [Enables advanced promotions for zombie units]",
+			"Consumes [1] [Power]"
+		]
+	}
 ]
