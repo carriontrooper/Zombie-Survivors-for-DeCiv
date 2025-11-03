@@ -9,7 +9,7 @@
 					"[This Unit] takes [10] damage <upon turn start> <for [non-[Infected Cult]] units> <hidden from users>",
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [non-[Zombie]] units> <hidden from users>",
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [non-[Infected Cult]] units> <hidden from users>",
-					"[Target Unit] gains the [Infected] status <vs [Hazmat Suited] units> <hidden from users>"
+					"[Target Unit] gains the [Infected] status <vs [Hazmat Suited] units> <when adjacent to a [{Hostile} {Hazmat Suited}] unit> <hidden from users>"
 		]
 	},
 	{
@@ -40,4 +40,10 @@
 					"[This Unit] loses the [Infected] status <upon gaining the [Infected] status>"
 		]
 	},
+	{
+		"name": "Disinfected",
+		"uniques": [
+					"[This Unit] loses the [Infected] status <for [Infected] units>"
+		]
+	}
 ]
