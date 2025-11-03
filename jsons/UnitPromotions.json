@@ -23,7 +23,9 @@
 	{
 		"name": "Antivirus Serum",
 		"uniques": [
-					"[This Unit] loses the [Infected] status <upon turn start> <when below [80] HP> <for units with [Infected]>"
+					"Only available <with [Zombie Antivirus]>",
+					"Instantly consumes [1] [Zombie Antivirus] <upon turn end>",
+					"[This Unit] loses the [Infected] status <upon turn start> <when below [80] HP> <for units with [Infected]> <with [Zombie Antivirus]>"
 		]
 	},
 	{
