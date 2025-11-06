@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Zombie Antivirus",
-		"production": 1,
+		//"production": 1,
 		"resourceType": "Strategic",
 		"uniques": [
 			//"Cannot be traded",
