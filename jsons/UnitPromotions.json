@@ -5,18 +5,17 @@
 					"[-10]% Strength <for [non-[Zombie]] units>",
 					"Comment [Takes 10 damage at turn start, except for Zombies and Infected Cult]",
 					
-					"[This Unit] takes [10] damage <upon turn start> <for [non-[Zombie]] units> <hidden from users>",
-					"[This Unit] takes [10] damage <upon turn start> <for [non-[Infected Cult]] units> <hidden from users>",
-					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [non-[Zombie]] units> <hidden from users>",
-					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [non-[Infected Cult]] units> <hidden from users>",
-					"[Target Unit] gains the [Infected] status <vs [Hazmat Suited] units> <when adjacent to a [{Hostile} {Hazmat Suited}] unit> <hidden from users>"
+					"[This Unit] takes [10] damage <upon turn start> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
+					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
+					"[Target Unit] gains the [Infected] promotion <vs [{non-[Hazmat Suited]} {non-[Naturally Immune]}] units> <hidden from users>",
+					"[Target Unit] gains the [Infected] promotion <vs [Hazmat Suited] units> <when adjacent to a [{Hostile} {Hazmat Suited}] unit> <hidden from users>"
 		]
 	},
 	{
 		"name": "Naturally Immune",
 		"uniques": [
-					"[This Unit] loses the [Infected] status <upon turn start> <for units with [Infected]>",
-					"[This Unit] loses the [Infected] status <upon gaining the [Infected] status>",
+					"[This Unit] loses the [Infected] promotion <upon turn start> <for units with [Infected]>",
+					"[This Unit] loses the [Infected] promotion <upon gaining the [Infected] promotion>",
 					"[+10]% Strength <vs [Infected] units>"
 		]
 	},
@@ -25,7 +24,7 @@
 		"uniques": [
 					"Only available <with [Zombie Antivirus]>",
 					"Instantly consumes [1] [Zombie Antivirus] <upon turn end>",
-					"[This Unit] loses the [Infected] status <upon turn start> <when below [80] HP> <for units with [Infected]> <with [Zombie Antivirus]>"
+					"[This Unit] loses the [Infected] promotion <upon turn start> <when below [80] HP> <for units with [Infected]> <with [Zombie Antivirus]>"
 		]
 	},
 	{
@@ -37,13 +36,22 @@
 	{
 		"name": "Hazmat Suited",
 		"uniques": [
-					"[This Unit] loses the [Infected] status <upon gaining the [Infected] status>"
+					"[This Unit] loses the [Infected] promotion <upon gaining the [Infected] promotion> <hidden from users>"
 		]
 	},
 	{
 		"name": "Disinfected",
 		"uniques": [
-					"[This Unit] loses the [Infected] status <for [Infected] units>"
+					"[This Unit] loses the [Infected] promotion <for [Infected] units>"
+		]
+	},
+	{
+		"name": "Burning", //cribbed from Epic of Fantasy
+		"uniques": [
+					"[This Unit] takes [10] damage <upon turn start>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [Water] tile>",
+					"[This Unit] loses the [Burning] status <upon ending a turn in a [River] tile>",
+					"[-1]% Strength <hidden from users>"
 		]
 	}
 ]
