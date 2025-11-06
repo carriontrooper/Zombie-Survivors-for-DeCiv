@@ -3,9 +3,9 @@
 	"uniques": [
 		//event uniques
 	],
-	/*
 	"unitUniques": [
 		//infection mechanics, if need be
+		"[This Unit] heals [10] HP <upon turn start> <when adjacent to a [Infected Aura] unit> <for units with [Infected]>"
 	]
-	*/
+
 }
