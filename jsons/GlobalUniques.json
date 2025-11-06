@@ -1,3 +1,11 @@
-[
-
-]
+{
+	"name": "Global uniques",
+	"uniques": [
+		//event uniques
+	],
+	/*
+	"unitUniques": [
+		//infection mechanics, if need be
+	]
+	*/
+}
