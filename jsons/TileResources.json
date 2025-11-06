@@ -4,7 +4,7 @@
 		"production": 1,
 		"resourceType": "Strategic",
 		"uniques": [
-			"Cannot be traded",
+			//"Cannot be traded",
 			"Stockpiled"
 		]
 		"civilopediaText": [
