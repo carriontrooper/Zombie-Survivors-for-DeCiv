@@ -8,13 +8,15 @@
 					"[This Unit] takes [10] damage <upon turn start> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
 					"[Target Unit] gains the [Infected] promotion <vs [{non-[Hazmat Suited]} {non-[Naturally Immune]} {non-[Purge Robot Proto]} {non-[Purge Robot MkI]} {non-[Purge Robot MkII]} {non-[Salvaged Purge Robot]} {non-[Purge Robot]} {non-[Automated]}] units> <hidden from users>",
-					"[Target Unit] gains the [Infected] promotion <vs [Hazmat Suited] units> <when adjacent to a [{Hostile} {Hazmat Suited}] unit> <hidden from users>"
+					"[Target Unit] gains the [Infected] promotion <vs [Hazmat Suited] units> <when adjacent to a [{Hostile} {Hazmat Suited}] unit> <with [25]% chance> <hidden from users>"
+					//"Triggers a [Zombie Rising] event <with [50]% chance> <upon being defeated>" //if only we can spawn units in the events itself...
 		]
 	},
 	{
 		"name": "Naturally Immune",
 		"uniques": [
 					"[This Unit] loses the [Infected] promotion <upon turn start> <for units with [Infected]>",
+					"[This Unit] loses the [Infected] promotion <upon turn end> <for units with [Infected]>",
 					"[This Unit] loses the [Infected] promotion <upon gaining the [Infected] promotion>",
 					"[+10]% Strength <vs [Infected] units>"
 		]
@@ -36,13 +38,15 @@
 	{
 		"name": "Hazmat Suited",
 		"uniques": [
+					"Comment [Immune to ranged infection attacks, but still can be infected in melee]",
 					"[This Unit] loses the [Infected] promotion <upon gaining the [Infected] promotion> <hidden from users>"
 		]
 	},
 	{
 		"name": "Disinfected",
 		"uniques": [
-					"[This Unit] loses the [Infected] promotion <for [Infected] units>"
+					"Comment [This unit has been disinfected]",
+					"[This Unit] loses the [Infected] promotion <for [Infected] units> <hidden from users>"
 		]
 	},
 	{
