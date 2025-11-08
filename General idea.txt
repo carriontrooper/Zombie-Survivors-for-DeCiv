@@ -16,7 +16,8 @@ Zombie Runner
 
 special:
 Zombie Spitter
-Zombie Spewer
+Zombie Cougher
+Zombie Leaper
 Zombie Exploder
 Zombie Brute
 
