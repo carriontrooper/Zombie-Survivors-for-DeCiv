@@ -1,7 +1,29 @@
 {
 	"name": "Global uniques",
 	"uniques": [
+		//mechanics
+		"[This Unit] gains the [Zombie Antivirus] promotion <upon turn start> <in [Medical Tent] tiles> <for [{non-[Zombie]} {Infected}] units>",
+		"Free [Zombie Crawler] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <before the [Rediscovering era]>",
+		"Free [Zombie Walker] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <starting from the [Rediscovering era]> <before the [Rebuilding era]>",
+		"Free [Zombie Runner] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <starting from the [Rebuilding era]> <before the [Industrial era]>",
+		"Free [Zombie Exploder] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <starting from the [Industrial era]> <before the [Postmodern era]>",
+		"Free [Zombie Brute] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <starting from the [Postmodern era]>",
+		
 		//event uniques
+		"[3] free [Zombie Crawler] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [20]> <before turn number [21]>",
+		"[3] free [Zombie Walker] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [20]> <before turn number [21]>",
+		"Triggers a [The walking dead] event <for [Major] Civilizations> <upon turn end> <after turn number [20]> <before turn number [21]>",
+		"[5] free [Zombie Runner] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [50]> <before turn number [51]>",
+		"[5] free [Zombie Walker] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [50]> <before turn number [51]>",
+		"Triggers a [Zombie vigor] event <for [Major] Civilizations> <upon turn end> <after turn number [50]> <before turn number [51]>",
+		"[5] free [Zombie Runner] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>",
+		"[5] free [Zombie Walker] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>",
+		"[5] free [Zombie Spitter] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>",
+		"[5] free [Zombie Cougher] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>",
+		"[5] free [Zombie Exploder] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>",
+		"[5] free [Zombie Leaper] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>",
+		"[3] free [Zombie Brute] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>",
+		"Triggers a [Zombie mutation] event <for [Major] Civilizations> <upon turn end> <after turn number [120]> <before turn number [121]>"
 	],
 	"unitUniques": [
 		//infection mechanics, if need be
