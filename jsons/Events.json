@@ -1,3 +1,32 @@
 [
-
+	{
+		"name": "The walking dead",
+		"text": "Troubling news from beyond our borders: a strange sickness causes people to become rabid and aggressive, attacking others to spread their infection. Concerningly, they have been observed to still move even after receiving lethal blows...",
+		"choices": [
+			{
+				"text": "Barricade the doors and prepare for the worst.",
+				"uniques": ["Comment [Nothing happens] <hidden from users>"]
+			}
+		]
+	},
+	{
+		"name": "Zombie vigor",
+		"text": "The formerly-sluggish zombies have now been seen to move with startling speed - this new strain could cause a new wave of zombies at our gates.",
+		"choices": [
+			{
+				"text": "Prepare the defenses, and don't get infected!",
+				"uniques": ["Comment [Nothing happens] <hidden from users>"]
+			}
+		]
+	},
+	{
+		"name": "Zombie mutation",
+		"text": "Alarming news: new zombie types have been seen prowling among the infected, that seems to be adapting and specializing in response to our progress. Exercise caution.",
+		"choices": [
+			{
+				"text": "For the sake of our people, they must be culled.",
+				"uniques": ["Comment [Nothing happens] <hidden from users>"]
+			}
+		]
+	}
 ]
