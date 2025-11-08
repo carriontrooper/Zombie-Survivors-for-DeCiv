@@ -1,3 +1,35 @@
 [
-	
+	{
+		"name": "Medical Tent",
+		"uniqueTo": "The Resistant",
+		"terrainsCanBeBuiltOn": ["Badlands", "Wasteland", "Desert", "Tundra"],
+		"science": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Education",
+		"uniques": [
+			"Only available <with [Zombie Antivirus]>",
+			"Consumes [1] [Zombie Antivirus]",
+			"Gives a defensive bonus of [15]%",
+			"[+1 Science] <after discovering [Laboratory]>",
+			"Unbuildable <in [resource] tiles>",
+			"Unbuildable <in tiles adjacent to [Medical Tent] tiles>",
+			"Comment [Non-zombie, Infected units gain the Antivirus Serum promotion on this tile upon turn start]"
+		],
+	},
+	{
+		"name": "Plague Altar",
+		"uniqueTo": "Infected Cult",
+		"terrainsCanBeBuiltOn": ["Badlands", "Wasteland", "Desert", "Tundra", "Permafrost"],
+		"faith": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Writing",
+		"uniques": [
+			"Gives a defensive bonus of [15]%",
+			"Unbuildable <in [resource] tiles>",
+			"Unbuildable <in tiles adjacent to [Plague Altar] tiles>",
+			"Unbuildable <in tiles adjacent to [Medical Tent] tiles>",
+			"Comment [Expend Great Afflicted Ones on this tile to summon a Zombie]"
+		],
+	}
 ]
