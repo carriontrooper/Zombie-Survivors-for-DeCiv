@@ -16,6 +16,7 @@
 		"[3] free [Zombie Crawler] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [20]> <before turn number [21]>",
 		"[3] free [Zombie Walker] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [20]> <before turn number [21]>",
 		"Triggers a [The walking dead] event <for [{non-[Infected Cult]}{non-[Zed Corp]}{Major}] Civilizations> <upon turn end> <after turn number [20]> <before turn number [21]>",
+		"Triggers a [Infectious miracle] event <for [Infected Cult] Civilizations> <upon turn end> <after turn number [20]> <before turn number [21]>",
 		"[5] free [Zombie Runner] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [50]> <before turn number [51]>",
 		"[5] free [Zombie Walker] units appear <for [Barbarians] Civilizations> <upon turn end> <after turn number [50]> <before turn number [51]>",
 		"Triggers a [Zombie vigor] event <for [{non-[Infected Cult]}{non-[Zed Corp]}{Major}] Civilizations> <upon turn end> <after turn number [50]> <before turn number [51]>",
