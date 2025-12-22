@@ -10,6 +10,19 @@
 		]
 	},
 	{
+		"name": "Infectious miracle",
+		"text": "Rejoice! Rejoice! Our prayers have been answered, and the blessings of the Great Infected One is spreading amongst the heathens! It is a sign for us to spread its teachings far and wide!",
+		"choices": [
+			{
+				"text": "Welcome the blessed into our ranks!",
+				"uniques": [
+					"[1] free [Zombie Crawler] units appear <for [Infected Cult] Civilizations>",
+					"[1] free [Zombie Walker] units appear <for [Infected Cult] Civilizations>"
+				]
+			}
+		]
+	},
+	{
 		"name": "Zombie vigor",
 		"text": "The formerly-sluggish zombies have now been seen to move with startling speed - this new strain could cause a new wave of zombies at our gates.",
 		"choices": [
