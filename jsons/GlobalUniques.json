@@ -31,13 +31,15 @@
 	],
 	"unitUniques": [
 		//infection mechanics, if need be
-		"[This Unit] heals [10] HP <upon turn start> <when adjacent to a [Infected Aura] unit> <for units with [Infected]>",
+		"[This Unit] heals [10] HP <upon turn start> <when adjacent to a [[Great Afflicted One] Aura] unit> <for units with [Infected]>",
 		//remove infection from units that shouldn't have it
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Purge Robot] units> <for units with [Infected]>",
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Purge Robot Proto] units> <for units with [Infected]>",
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Purge Robot MKI] units> <for units with [Infected]>",
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Purge Robot MKII] units> <for units with [Infected]>",
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Salvaged Purge Robot] units> <for units with [Infected]>",
+		"[This Unit] loses the [Infected] promotion <upon turn start> <for units with [Clockwork Automaton]> <for units with [Infected]>",
+		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Automated] units> <for units with [Infected]>",
 	]
 
 }
