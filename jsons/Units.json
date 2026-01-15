@@ -1,3 +1,155 @@
 [
+	// zombies
 	
+
+	// uniques
+	// The Resistant
+	{
+		"name": "Untouched",
+		"uniqueTo": "The Resistant",
+		"replaces": "Militia",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 37,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": [
+			"Naturally Immune"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+
+	// Infected Cult
+	{
+		"name": "Viral Zealot",
+		"uniqueTo": "Infected Cult",
+		"replaces": "Spearman",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 23,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[+10]% Strength <when adjacent to a [Infected] unit>",
+			"[+10]% Strength <when adjacent to a [Viral Zealot] unit>",
+			"[+20]% Strength <when adjacent to a [Great Afflicted One] unit>",
+			"[+50]% Strength <when stacked with a [Great Afflicted One] unit>",
+			"Free [Zombie Walker] appears <upon being defeated>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Great Afflicted One",
+		"uniqueTo": "Infected Cult",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Plague Altar] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Gain [10]-[100] [Faith] <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+
+	// Hazmat Dukes
+	{
+		"name": "Purifier",
+		"uniqueTo": "Hazmat Dukes",
+		"replaces": "Soldier",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 120,
+		"upgradesTo": "Infantry",
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"uniques": [
+			"Personnel",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit>"
+		],
+		"promotions": [
+			"Hazmat Suited"
+		],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Mercy Killer",
+		"uniqueTo": "Hazmat Dukes",
+		"replaces": "Marksman",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Marksman",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+100]% Strength <vs [Zombie] units>",
+			"Withdraws before melee combat <vs [Zombie] units>"
+		],
+		"promotions": [
+			"Reconnaissance I",
+			"Hazmat Suited"
+		],
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "Disinfector Truck",
+		"uniqueTo": "Hazmat Dukes",
+		"replaces": "Technical",
+		"unitType": "Siege",
+		"range": 1,
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 50,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Missile Vehicle",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs [Armor] units>",
+			"[+50]% Strength <vs [Zombie] units>",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"[Target Unit] gains the [Disinfected] status for [4] turn(s) <upon damaging a [Infected] unit>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+
+	// Zed Corp
 ]
