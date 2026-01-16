@@ -69,7 +69,24 @@
 					"[This Unit] loses the [Burning] status <upon ending a turn in a [River] tile>",
 					"[-1]% Strength <hidden from users>"
 		]
-	}
+	},
 
 	// adv zombie promotions
+	{
+		"name": "Zed Corp Strain",
+		"uniques": [
+					"Comment [This zombie is infected with a Zed Corp strain of virus]"
+		]
+	},
+
+	{
+		"name": "Tough Carcass",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+5]% Strength <when defending>",
+			"Only available <for [Zombie] units>"
+		],
+		"unitTypes": ["Scrapper", "Shooter"]
+	},
 ]
