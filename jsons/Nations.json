@@ -302,7 +302,8 @@
 		"uniqueName": "Rulers of Zombieland",
 		"uniques": [
 			"May capture killed [Infected] units <with [60]% chance>",
-			"[+20]% [Science] from City-States"
+			"[+20]% [Science] from City-States",
+			"All newly-trained [Zombie] units [in all cities] receive the [Zed Corp Strain] promotion"
 		],
 		"cities": [
 			"Zed Corp HQ",
