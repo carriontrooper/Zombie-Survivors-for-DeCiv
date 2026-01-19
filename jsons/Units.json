@@ -82,6 +82,22 @@
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
 	},
 	{
+		"name": "Zombie Exploder",
+		"unitType": "Scrapper",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 18,
+		"cost": 15,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech"],
+		"promotions": [
+			"Infected",
+			"Self-destructs when attacking",
+			"[+200]% Strength <vs [Military] units> <when attacking>"
+		],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+	{
 		"name": "Zombie Brute",
 		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
@@ -244,4 +260,53 @@
 	},
 
 	// Zed Corp
+	{
+		"name": "Zombie Worker",
+		"uniqueTo": "Zed Corp",
+		"replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 1,
+		//"hurryCostModifier": 20,
+		//"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"Zombie",
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action"
+		],
+		"cost": 35
+	},
+	{
+		"name": "Docile Zombie",
+		"unitType": "Scrapper",
+		"uniqueTo": "Zed Corp",
+		"movement": 2,
+		"strength": 19,
+		"cost": 20,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech"],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+	{
+		"name": "Z-Piper",
+		"uniqueTo": "Zed Corp",
+		"replaces": "Rifleman",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 30,
+		"interceptRange": 1,
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Marksman",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"[+100]% Strength <vs [Zombie] units> <when defending>",
+			"May capture killed [Zombie] units <with [50]% chance>"
+		],
+		"promotions": ["Zombie Wrangler"],
+		"attackSound": "shot"
+	}
 ]
