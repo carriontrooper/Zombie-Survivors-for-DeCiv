@@ -1,5 +1,83 @@
 [
 	// unique wonders
+	{
+		"name": "First Safehouse",
+		"uniqueTo": "The Resistant",
+		"replaces": "Bomb Shelter",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 4,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"Provides [2] [Zombie Antivirus]",
+			"[2] free [Untouched] units appears"
+		]
+	},
+
+	{
+		"name": "Grove of the Infected",
+		"uniqueTo": "Infected Cult",
+		"replaces": "Bomb Shelter",
+		"isNationalWonder": true,
+		"food": 3,
+		"production": 3,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"Free [Viral Zealot] appears",
+			"Free [Zombie Walker] appears"
+		]
+	},
+
+	{
+		"name": "Hazmat Bastion",
+		"uniqueTo": "Hazmat Dukes",
+		"replaces": "Bomb Shelter",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 3,
+		"cityStrength": 6,
+		"cityHealth": 60,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"Free [Purifier] appears"
+		]
+	},
+
+	{
+		"name": "Zed Corporate Bunker",
+		"uniqueTo": "Zed Corp",
+		"replaces": "Bomb Shelter",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 3,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"science": 4,
+		"gold": 3,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"Free [Zombie Worker] appears",
+			"Free [Docile Zombie] appears"
+		]
+	},
 	
 	// generic
 	{
