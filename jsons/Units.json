@@ -20,7 +20,7 @@
 		"strength": 18,
 		"cost": 15,
 		//"obsoleteTech": "Engineering",
-		"uniques": ["Zombie","Low Tech"],
+		"uniques": ["Zombie","Can Mutate","Low Tech"],
 		"promotions": ["Infected"],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
 	},
@@ -32,7 +32,7 @@
 		"strength": 30,
 		"cost": 30,
 		//"obsoleteTech": "Engineering",
-		"uniques": ["Zombie","Low Tech"],
+		"uniques": ["Zombie","Can Mutate","Low Tech"],
 		"promotions": ["Infected"],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
 	},
