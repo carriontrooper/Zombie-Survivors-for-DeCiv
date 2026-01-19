@@ -1,6 +1,98 @@
 [
 	// zombies
-	
+	{
+		"name": "Zombie Crawler",
+		"unitType": "Scrapper",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 12,
+		"cost": 10,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech"],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+	{
+		"name": "Zombie Walker",
+		"unitType": "Scrapper",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 18,
+		"cost": 15,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech"],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+	{
+		"name": "Zombie Runner",
+		"unitType": "Scrapper",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 30,
+		"cost": 30,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech"],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+
+	{
+		"name": "Zombie Spitter",
+		"unitType": "Shooter",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 1,
+		"strength": 15,
+		"rangedStrength": 18,
+		"cost": 15,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech","[+33]% Strength <vs [Low Tech] units>"],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+	{
+		"name": "Zombie Cougher",
+		"unitType": "Shooter",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 1,
+		"strength": 14,
+		"rangedStrength": 14,
+		"cost": 15,
+		//"obsoleteTech": "Engineering",
+		"uniques": [
+			"Zombie",
+			"Low Tech",
+			"[Target Unit] gains the [Smoke-Blinded] status for [2] turn(s) <upon damaging a [All] unit>"
+		],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+	{
+		"name": "Zombie Leaper",
+		"unitType": "Scrapper",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 50,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech","[-10]% Strength <when defending>","May Paradrop to [Land] tiles up to [2] tiles away <in [{Friendly} {Land}] tiles>"],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
+	{
+		"name": "Zombie Brute",
+		"unitType": "Scrapper",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 80,
+		"cost": 200,
+		//"obsoleteTech": "Engineering",
+		"uniques": ["Zombie","Low Tech","[+25]% Strength <when attacking>"],
+		"promotions": ["Infected"],
+		"attackSound": "nonmetalhit" //change this into custom zombie sound
+	},
 
 	// uniques
 	// The Resistant
@@ -95,7 +187,7 @@
 		"promotions": [
 			"Hazmat Suited"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun" //change into flamethrower sound
 	},
 
 	{
