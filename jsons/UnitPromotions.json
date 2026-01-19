@@ -62,6 +62,12 @@
 		]
 	},
 	{
+		"name": "Zombie Wrangler",
+		"uniques": [
+					"[+20]% Strength bonus for [{Friendly} {Zombie}] units within [3] tiles"
+		]
+	},
+	{
 		"name": "Burning", //cribbed from Epic of Fantasy
 		"uniques": [
 					"[This Unit] takes [10] damage <upon turn start>",
