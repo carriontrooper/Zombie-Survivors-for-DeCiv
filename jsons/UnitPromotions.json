@@ -102,4 +102,77 @@
 		],
 		"unitTypes": ["Scrapper", "Shooter"]
 	},
+	{
+		"name": "Acidic Spit",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"[+20]% Strength <vs [Personnel] units> <when attacking>",
+			"Only available <for [Zombie Spitter] units>"
+		],
+		"unitTypes": ["Shooter"]
+	},
+	{
+		"name": "Raking Claws",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"Only available <for [Zombie] units>"
+		],
+		"unitTypes": ["Scrapper"]
+	},
+	{
+		"name": "Unnatural Reflex",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"Withdraws before melee combat <with [10]% chance>",
+			"Only available <for [Zombie] units>"
+		],
+		"unitTypes": ["Scrapper"]
+	},
+
+	{
+		"name": "Acidic Mutation",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"Can transform to [Zombie Spitter]",
+			"Only available <for [{Zombie} {Can Mutate}] units>"
+		],
+		"unitTypes": ["Scrapper"]
+	},
+	{
+		"name": "Miasma Mutation",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"Can transform to [Zombie Cougher]",
+			"Only available <for [{Zombie} {Can Mutate}] units>"
+		],
+		"unitTypes": ["Scrapper"]
+	},
+	{
+		"name": "Tendon Mutation",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"Can transform to [Zombie Leaper]",
+			"Only available <for [{Zombie} {Can Mutate}] units>"
+		],
+		"unitTypes": ["Scrapper"]
+	},
+	{
+		"name": "Volatile Mutation",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"Can transform to [Zombie Exploder]",
+			"Only available <for [{Zombie} {Can Mutate}] units>"
+		],
+		"unitTypes": ["Scrapper"]
+	},
+	{
+		"name": "Dense Muscle Mutation",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"Can transform to [Zombie Brute]",
+			"Only available <for [{Zombie} {Can Mutate}] units>"
+		],
+		"unitTypes": ["Scrapper"]
+	}
 ]
