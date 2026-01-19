@@ -70,6 +70,13 @@
 					"[-1]% Strength <hidden from users>"
 		]
 	},
+	{
+		"name": "Smoke-Blinded",
+		"uniques": [
+					"[-1] Sight <upon turn start>",
+					"[-1]% Strength <hidden from users>"
+		]
+	},
 
 	// adv zombie promotions
 	{
