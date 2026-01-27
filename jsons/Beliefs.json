@@ -1,3 +1,10 @@
 [
-	
+	{
+		"name": "Lord of Infections",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] <for every [Infected]>",
+			"[+1 Happiness] from every [Plague Altar]"
+		]
+	},
 ]
