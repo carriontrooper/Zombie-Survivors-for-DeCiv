@@ -67,6 +67,8 @@
 					"[+20]% Strength bonus for [{Friendly} {Zombie}] units within [3] tiles"
 		]
 	},
+	
+	// status fx
 	{
 		"name": "Burning", //cribbed from Epic of Fantasy
 		"uniques": [
@@ -103,15 +105,6 @@
 		"unitTypes": ["Scrapper", "Shooter"]
 	},
 	{
-		"name": "Acidic Spit",
-		"prerequisites": ["Zed Corp Strain"],
-		"uniques": [
-			"[+20]% Strength <vs [Personnel] units> <when attacking>",
-			"Only available <for [Zombie Spitter] units>"
-		],
-		"unitTypes": ["Shooter"]
-	},
-	{
 		"name": "Raking Claws",
 		"prerequisites": ["Zed Corp Strain"],
 		"uniques": [
@@ -129,7 +122,27 @@
 		],
 		"unitTypes": ["Scrapper"]
 	},
+	{
+		"name": "Digging Instinct",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"[-1] Movement",
+			"Only available <for [Zombie] units>"
+		],
+		"unitTypes": ["Scrapper", "Shooter"]
+	},
+	{
+		"name": "Acidic Spit",
+		"prerequisites": ["Zed Corp Strain"],
+		"uniques": [
+			"[+20]% Strength <vs [Personnel] units> <when attacking>",
+			"Only available <for [Zombie Spitter] units>"
+		],
+		"unitTypes": ["Shooter"]
+	},
 
+	// zombie mutations
 	{
 		"name": "Acidic Mutation",
 		"prerequisites": ["Zed Corp Strain"],
