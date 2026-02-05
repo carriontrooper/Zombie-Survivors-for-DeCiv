@@ -27,6 +27,7 @@
 	{
 		"name": "Naturally Immune",
 		"uniques": [
+					"Immunized",
 					"[This Unit] loses the [Infected] promotion <upon turn start> <for units with [Infected]>",
 					"[This Unit] loses the [Infected] promotion <upon turn end> <for units with [Infected]>",
 					"[This Unit] loses the [Infected] promotion <upon gaining the [Infected] promotion>",
@@ -36,6 +37,7 @@
 	{
 		"name": "Antivirus Serum",
 		"uniques": [
+					"Immunized",
 					"Only available <with [Zombie Antivirus]>",
 					"Instantly consumes [1] [Zombie Antivirus] <upon turn end>",
 					"[This Unit] loses the [Infected] promotion <upon turn start> <when below [80] HP> <for units with [Infected]> <with [Zombie Antivirus]>"
