@@ -70,6 +70,12 @@
 					"[+20]% Strength bonus for [{Friendly} {Zombie}] units within [3] tiles"
 		]
 	},
+	{
+		"name": "Infected Capture",
+		"uniques": [
+					"May capture killed [Infected] units <with [60]% chance>"
+		]
+	},
 	
 	// status fx
 	{
