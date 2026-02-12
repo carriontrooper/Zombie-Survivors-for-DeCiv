@@ -3,16 +3,21 @@
 		"name": "Lord of Infections",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] <for every [[Infected] Units]>",
-			"[+1 Happiness] from every [Plague Altar]"
+			//"[+1 Faith] <for every [[Infected] Units]>",
+			"[+1 Happiness] from every [Plague Altar]",
+			"[+3 Faith] from every [Marsh]"
 		]
 	},
 	{
 		"name": "Medical Miracle",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Faith] <for every [[Immunized] Units]>",
-			"[+1 Faith] from every [Medical Tent]"
+			//"[+2 Faith] <for every [[Immunized] Units]>",
+			"[+1 Faith] from every [Medical Tent]",
+			"[+2 Faith] from every [Hospital]",
+			"[+2 Faith] from every [Medical Lab]",
+			"[+1 Faith] from every [Organ Lab]",
+			"[+5 Faith] from every [Medical Network]"
 		]
 	}
 ]
