@@ -89,11 +89,14 @@
 		"strength": 18,
 		"cost": 15,
 		//"obsoleteTech": "Engineering",
-		"uniques": ["Zombie","Low Tech"],
-		"promotions": [
-			"Infected",
+		"uniques": [
+			"Zombie",
+			"Low Tech",
 			"Self-destructs when attacking",
 			"[+200]% Strength <vs [Military] units> <when attacking>"
+		],
+		"promotions": [
+			"Infected"
 		],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
 	},
