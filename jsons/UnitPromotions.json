@@ -7,7 +7,8 @@
 					
 					"[This Unit] takes [10] damage <upon turn start> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
-					"[Target Unit] gains the [Infected] promotion <vs [{non-[Hazmat Suited]} {non-[Naturally Immune]} {non-[Purge Robot Proto]} {non-[Purge Robot MkI]} {non-[Purge Robot MkII]} {non-[Salvaged Purge Robot]} {non-[Purge Robot]} {non-[Automated]}] units> <hidden from users>",
+					//"[Target Unit] gains the [Infected] promotion <vs [{non-[Hazmat Suited]} {non-[Naturally Immune]} {non-[Purge Robot Proto]} {non-[Purge Robot MkI]} {non-[Purge Robot MkII]} {non-[Salvaged Purge Robot]} {non-[Purge Robot]} {non-[Automated]}] units> <hidden from users>",
+					"[Target Unit] gains the [Infected] promotion",
 					"[Target Unit] gains the [Hazmat Infected] promotion <vs [Hazmat Suited] units> <when adjacent to a [{Hostile} {Hazmat Suited}] unit> <with [25]% chance> <hidden from users>",
 					"[This Unit] heals [10] HP <upon turn start> <for [Infected Cult] units>"
 		]
@@ -21,7 +22,8 @@
 					
 					"[This Unit] takes [10] damage <upon turn start> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
 					"[This Unit] takes [10] damage <upon gaining the [Infected] status> <for [{non-[Zombie]} {non-[Infected Cult]}] units> <hidden from users>",
-					"[Target Unit] gains the [Infected] promotion <vs [{non-[Hazmat Suited]} {non-[Naturally Immune]} {non-[Purge Robot Proto]} {non-[Purge Robot MkI]} {non-[Purge Robot MkII]} {non-[Salvaged Purge Robot]} {non-[Purge Robot]} {non-[Automated]}] units> <hidden from users>",
+					//"[Target Unit] gains the [Infected] promotion <vs [{non-[Hazmat Suited]} {non-[Naturally Immune]} {non-[Purge Robot Proto]} {non-[Purge Robot MkI]} {non-[Purge Robot MkII]} {non-[Salvaged Purge Robot]} {non-[Purge Robot]} {non-[Automated]}] units> <hidden from users>",
+					"[Target Unit] gains the [Infected] promotion",
 					"[Target Unit] gains the [Hazmat Infected] promotion <vs [Hazmat Suited] units> <when adjacent to a [{Hostile} {Hazmat Suited}] unit> <with [25]% chance> <hidden from users>"
 		]
 	},
