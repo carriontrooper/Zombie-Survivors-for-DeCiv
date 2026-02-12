@@ -302,9 +302,11 @@
 		"favoredReligion": "Capitalism",
 		"uniqueName": "Rulers of Zombieland",
 		"uniques": [
-			"May capture killed [Infected] units <with [60]% chance>",
+			//"May capture killed [Infected] units <with [60]% chance>",
+			"Comment [May capture Infected units with 60% chance]",
 			"[+20]% [Science] from City-States",
-			"All newly-trained [Zombie] units [in all cities] receive the [Zed Corp Strain] promotion"
+			"All newly-trained [Zombie] units [in all cities] receive the [Zed Corp Strain] promotion",
+			"All newly-trained [Military] units [in all cities] receive the [Infected Capture] promotion"
 		],
 		"cities": [
 			"Zed Corp HQ",
