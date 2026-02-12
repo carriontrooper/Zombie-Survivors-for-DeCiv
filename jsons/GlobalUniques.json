@@ -3,7 +3,8 @@
 	"uniques": [
 		//mechanics
 		//"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <in [Medical Tent] tiles> <for [{non-[Zombie]} {Infected}] units>",
-		"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
+		//"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
+		"[All] units gains the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
 		
 		"Free [Zombie Crawler] appears <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
 		"Free [Zombie Walker] appears <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
