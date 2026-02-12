@@ -5,7 +5,9 @@
 		"uniques": [
 			//"[+1 Faith] <for every [[Infected] Units]>",
 			"[+1 Happiness] from every [Plague Altar]",
-			"[+3 Faith] from every [Marsh]"
+			"[+2 Faith, +1 Food] from every [Swamp]",
+			"[+3 Faith, +1 Food] from every [Toxic Waste]",
+			"[+2 Faith, +1 Food] from every [Fallout]"
 		]
 	},
 	{
