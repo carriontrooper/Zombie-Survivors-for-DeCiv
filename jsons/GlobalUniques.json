@@ -2,10 +2,12 @@
 	"name": "Global uniques",
 	"uniques": [
 		//mechanics
-		"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <in [Medical Tent] tiles> <for [{non-[Zombie]} {Infected}] units>",
-		"Free [Zombie Crawler] appear <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
-		"Free [Zombie Walker] appear <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
-		"Free [Zombie Runner] appear <for [Barbarians] Civilizations> <every [3] turns> <after turn number [50]>",
+		//"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <in [Medical Tent] tiles> <for [{non-[Zombie]} {Infected}] units>",
+		"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
+		
+		"Free [Zombie Crawler] appears <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
+		"Free [Zombie Walker] appears <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
+		"Free [Zombie Runner] appears <for [Barbarians] Civilizations> <every [3] turns> <after turn number [50]>",
 		"Free [Zombie Crawler] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <before the [Rediscovering era]>",
 		"Free [Zombie Walker] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <starting from the [Rediscovering era]> <before the [Rebuilding era]>",
 		"Free [Zombie Runner] appears <for [Infected Cult] Civilizations> <upon expending a [Great Afflicted One] unit> <in [Plague Altar] tiles> <starting from the [Rebuilding era]> <before the [Industrial era]>",
