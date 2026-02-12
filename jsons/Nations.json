@@ -235,7 +235,7 @@
 		"uniqueName": "Kill All Sons of Zombies",
 		"uniques": [
 			"Comment [Units will only get Infected from melee attacks]",
-			"[+20%] Strength <vs [Infected] units>",
+			"[+20]% Strength <vs [Infected] units>",
 			"Cannot build [Enslaved] units"
 		],
 		"cities": [
