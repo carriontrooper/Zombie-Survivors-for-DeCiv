@@ -276,6 +276,7 @@
 			"Can build [Land] improvements on tiles",
 			"Automation is a primary action"
 		],
+		"promotions": ["Infected"],
 		"cost": 35
 	},
 	{
