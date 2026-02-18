@@ -4,7 +4,7 @@
 		//mechanics
 		//"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <in [Medical Tent] tiles> <for [{non-[Zombie]} {Infected}] units>",
 		//"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
-		"[All] units gain the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
+		//"[All] units gain the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
 		
 		"Free [Zombie Crawler] appears <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
 		"Free [Zombie Walker] appears <for [Barbarians] Civilizations> <every [3] turns> <after turn number [20]>",
@@ -43,6 +43,9 @@
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Salvaged Purge Robot] units> <for units with [Infected]>",
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for units with [Clockwork Automaton]> <for units with [Infected]>",
 		"[This Unit] loses the [Infected] promotion <upon turn start> <for [Automated] units> <for units with [Infected]>",
+		// medical tent
+		"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <in [Medical Tent] tiles> <for [{non-[Zombie]} {Infected}] units>",
+		//"[This Unit] gains the [Antivirus Serum] promotion <upon turn start> <upon ending a turn in a [Medical Tent] tile> <for [{non-[Zombie]} {Infected}] units>",
 	]
 
 }
