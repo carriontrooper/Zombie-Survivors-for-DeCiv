@@ -20,6 +20,7 @@
 		"strength": 18,
 		"cost": 15,
 		//"obsoleteTech": "Engineering",
+		"requiredTech": "Engineering",
 		"uniques": ["Zombie","Can Mutate","Low Tech"],
 		"promotions": ["Infected"],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
@@ -32,6 +33,7 @@
 		"strength": 30,
 		"cost": 30,
 		//"obsoleteTech": "Engineering",
+		"requiredTech": "Machinery",
 		"uniques": ["Zombie","Can Mutate","Low Tech"],
 		"promotions": ["Infected"],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
@@ -47,6 +49,7 @@
 		"rangedStrength": 18,
 		"cost": 15,
 		//"obsoleteTech": "Engineering",
+		"requiredTech": "Biology",
 		"uniques": ["Zombie","Low Tech","[+33]% Strength <vs [Low Tech] units>"],
 		"promotions": ["Infected"],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
@@ -61,6 +64,7 @@
 		"rangedStrength": 14,
 		"cost": 15,
 		//"obsoleteTech": "Engineering",
+		"requiredTech": "Biology",
 		"uniques": [
 			"Zombie",
 			"Low Tech",
@@ -77,6 +81,7 @@
 		"strength": 50,
 		"cost": 50,
 		//"obsoleteTech": "Engineering",
+		"requiredTech": "Biology",
 		"uniques": ["Zombie","Low Tech","[-10]% Strength <when defending>","May Paradrop to [Land] tiles up to [2] tiles away <in [{Friendly} {Land}] tiles>"],
 		"promotions": ["Infected"],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
@@ -89,6 +94,7 @@
 		"strength": 18,
 		"cost": 15,
 		//"obsoleteTech": "Engineering",
+		"requiredTech": "Munitions",
 		"uniques": [
 			"Zombie",
 			"Low Tech",
@@ -108,6 +114,7 @@
 		"strength": 80,
 		"cost": 200,
 		//"obsoleteTech": "Engineering",
+		"requiredTech": "Ballistics",
 		"uniques": ["Zombie","Low Tech","[+25]% Strength <when attacking>"],
 		"promotions": ["Infected"],
 		"attackSound": "nonmetalhit" //change this into custom zombie sound
