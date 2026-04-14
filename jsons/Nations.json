@@ -101,6 +101,13 @@
 		"declaringFriendship": "You and me, it's us against the world!",
 		"tradeRequest": "Hey, we need some supplies, what do you want to trade for these?",
 
+		"neutralDenouncing": "We've heard rumors that you've been harboring sick individuals. Sorry, but we must quarantine ourselves from you.",
+		"hateDenouncing": "Nevermind the zombies, you're way worse than them.",
+		
+		"acceptingDemand": "Glad I'm not the only one that thought so.",
+		"neutralRejectingDemand": "Sorry, this doesn't seem like a good approach to the problem.",
+		"hateRejectingDemand": "I'd rather get bitten by a zombie than to agree to this.",
+
 		"outerColor": [168, 0, 0],
 		"innerColor": [204, 255, 18],
 		"favoredReligion": "Humanism",
@@ -167,6 +174,13 @@
 		"denounced": "Ahh, no matter - no quarantine shall stop the spread of blessings.",
 		"declaringFriendship": "You seem to be favoured by the fevers - would you like to be good neighbors?",
 		"tradeRequest": "We realize that not all are blessed in the way we do - let us share some of the other kinds of blessings.",
+
+		"neutralDenouncing": "Why have you turned away from salvation's fever? Please, it is not too late to receive the blessings!",
+		"hateDenouncing": "We believe that everyone is eligible for the blessings of the Great Afflicted One, even wicked ones such as yourself.",
+		
+		"acceptingDemand": "Blessed be! We believe this is blessed.",
+		"neutralRejectingDemand": "This is not enough to match our fervor.",
+		"hateRejectingDemand": "We must reject, this will lead us astray.",
 
 		"outerColor": [104, 133, 0],
 		"innerColor": [130, 222, 118],
@@ -237,6 +251,13 @@
 		"declaringFriendship": "You look like a fellow of solid countenance. Shall become steadfast friends?",
 		"tradeRequest": "We require supplies to purify the zombie menace. We are more than willing to trade goods for them.",
 
+		"neutralDenouncing": "We have received word that you haven't quarantined yourself - so we'll have to.",
+		"hateDenouncing": "You zombie sympathizers will fall against our might, mark my words.",
+		
+		"acceptingDemand": "This will work.",
+		"neutralRejectingDemand": "Nay, this is not up to quarantine standards.",
+		"hateRejectingDemand": "We would sooner let the zombies in than accept this deal.",
+
 		"outerColor": [227, 185, 0],
 		"innerColor": [74, 47, 0],
 		"favoredReligion": "Liberty",
@@ -303,6 +324,13 @@
 		"denounced": "Did you expect me to be shocked? Honestly, I'd say it's about time.",
 		"declaringFriendship": "I'd thought you'd be a bore, but you've subverted my expectations! Would you like to enter a lasting partnership?",
 		"tradeRequest": "Would you like to hear about this very good deal our marketing department's proposing?",
+
+		"neutralDenouncing": "I'm not much into denouncements and such, but I'll try it on you this time.",
+		"hateDenouncing": "Ah, there you are, my favourite zombie bait! When are you going to turn? Be our future workforce already!",
+		
+		"acceptingDemand": "Oh hohoho, marvelous.",
+		"neutralRejectingDemand": "Hmm, might want to revise that and come back to me, dearie.",
+		"hateRejectingDemand": "Have you ever been compared to a zombie on your deal-making skills? Because Brainless Bob from marketing can do better than this.",
 
 		"outerColor": [140, 143, 110],
 		"innerColor": [41, 54, 7],
