@@ -18,6 +18,7 @@
 		"diplomacy": Diplomatic Balance + Friendly,
 		"loyal": Loyalty + Defense,
 		"expansion": Expansion,
+		"denounceWillingness": Denouncing,
 
 		"priorities": {
 			"Adaptation": Growth + Culture + Defensive,
@@ -57,6 +58,7 @@
 		"diplomacy": 8,
 		"loyal": 8,
 		"expansion": 6,
+		"denounceWillingness": 5,
 
 		"priorities": {
 			"Adaptation": 30,
@@ -92,6 +94,7 @@
 		"diplomacy": 6,
 		"loyal": 2,
 		"expansion": 8,
+		"denounceWillingness": 5,
 
 		"priorities": {
 			"Adaptation": 10,
@@ -127,6 +130,7 @@
 		"diplomacy": 4,
 		"loyal": 5,
 		"expansion": 4,
+		"denounceWillingness": 6,
 
 		"priorities": {
 			"Adaptation": 20,
@@ -162,6 +166,7 @@
 		"diplomacy": 4,
 		"loyal": 1,
 		"expansion": 7,
+		"denounceWillingness": 7,
 
 		"priorities": {
 			"Adaptation": 10,
